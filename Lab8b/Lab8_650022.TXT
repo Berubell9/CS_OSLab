@@ -1,0 +1,33 @@
+//65050022
+//Kornkamol saengsawang
+Lab8a
+Q1(2.4) : 
+2 power n:
+Received a SIGUSR1. The max n is 20! = 2432902008176640000
+-------------------------------------------------------------
+Q2(3.3) :
+parent wait for SIGALRM
+sending SIGALRM
+it takes 2012326927
+-------------------------------------------------------------
+Lab8b_q1.C
+(A) :
+q1.1 : pfd
+q1.2 : buf
+q1.3 : pfd[1], inbuf, SIZE*2
+q1.4 : pfd[1]
+q1.5 : waitpid(pid,NULL,0)
+
+(B) output lab8b_q1 : 
+write pipe id = 4  read file id = 3
+child received 1234567890. After + 5 = 1234567895
+child received 12. After + 5 = 17
+-------------------------------------------------------------
+Lab8b_q2.C
+q2.1 : dup2(fd,1);
+
+(C) output lab8b_q2.c :
+current file descriptor id is 3
+
+(D) output lab8b_q2.sh :
+please read this line in aaa.txt
