@@ -1,0 +1,9 @@
+65050022 Kornkamol saengsawang 
+Q1 : notifyAll();
+Q2 : synchronized
+Q3 : wait();
+Q4 choose between Q4.1 or Q4.2 inside or outside try block 
+ตอบ inside  เลือก 4.1)
+Q4.1 : uncommand size--;
+Q4.2 : command size--; เพราะ ต้องใส่ในกรณี Exception (try-catch)
+Q5 : public
