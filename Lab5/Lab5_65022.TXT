@@ -1,0 +1,14 @@
+1.1 ไม่ทำงาน
+1.2 ทำงาน 1 ครั้ง
+----------------------------------
+2.1 ทำงาน 
+2.2 ทำงาน 1 ครั้ง
+2.3 พิมพ์ exit(0); ไว้ด้านบนบรรทัด /*A*/เพื่อจบการทำงานของ exec
+2.4 พิมพ์ exit(0); ไว้ด้านบนบรรทัด /*A*/เพื่อจบการทำงานของ exec เเละออกจากการทำงานใน if/*40*/ เพื่อไปทำงานในเเม่ต่อ
+----------------------------------
+3.1 ls: /usr/bin/ls /usr/share/man/man1/ls.1.g
+3.2 whoami: /usr/bin/whoami /usr/share/man/man1/whoami.1.g
+3.3 ps: /usr/bin/ps /usr/share/man/man1/ps.1.g
+3.4 type is a shell builtin
+3.5 cd is a shell builtin
+3.6  ใช้ได้ (exec is a shell builtin)
