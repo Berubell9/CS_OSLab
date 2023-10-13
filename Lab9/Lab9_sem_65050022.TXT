@@ -1,0 +1,19 @@
+คำสั่ง ข้อ 1
+1.1) ตอบ /* A */ : exitCriticalSection(0);
+1.2) ตอบ /* B */ : exitCriticalSection(1); 
+1.3) all: Lab9_q1
+    Lab9_q1: Lab9_q1.o q1.o
+	gcc -o Lab9_q1 Lab9_q1.o q1.o
+    Lab9_q1.o: Lab9_q1.c
+	gcc -c Lab_q1.c
+    q1.o: q1.c
+	gcc -c q1.c
+    clean:
+	rm -rf *.o Lab9_q1
+--------------------------------------------------------------------------------------
+คำสั่ง ข้อ 2
+2.1) ตอบ /* C */ : sem_wait(&mySemaphore);
+2.2) ตอบ /* D */ : sem_init(&mySemaphore,0,1);
+2.3) output: thr 139919677785356 exits. =  lastSeen = 195064
+Last cnt from tid[0] is 196053
+final cnt = 200000
